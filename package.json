@@ -1,0 +1,24 @@
+{
+  "name": "nodebabelexpressserver",
+  "version": "1.0.0",
+  "description": " a example of node with babel",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node --presets env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajneeshksharma/nodeBabelExpressServer.git"
+  },
+  "author": "Rajneesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajneeshksharma/nodeBabelExpressServer/issues"
+  },
+  "homepage": "https://github.com/rajneeshksharma/nodeBabelExpressServer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
